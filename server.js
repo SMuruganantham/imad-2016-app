@@ -16,8 +16,8 @@ app.get('/ui/style.css', function (req, res) {
 app.get('/ui/madi.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'madi.png'));
 });
-app.get('Muru_0001.jpg',function(req,res){
-      res.sendFile(path.join(__dirname,'imad-2016-app','Muru_0001.jpg'));
+app.get('/ui/Muru_0001.jpg',function(req,res){
+      res.sendFile(path.join(__dirname,'ui','Muru_0001.jpg'));
 });
 
 
